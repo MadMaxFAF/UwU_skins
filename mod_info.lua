@@ -1,0 +1,14 @@
+name = "UwU Skins"
+uid = "1ae49b98-5e68-49f5-adb0-4d083715cca9"
+version = 4
+description = "anmie flavor skins"
+author = "Madmax"
+icon = "/mods/UwU_skins/Icon.png"
+selectable = true
+enabled = true
+exclusive = false
+ui_only = false
+requires = { }
+conflicts = { }
+before = { }
+after = { }
