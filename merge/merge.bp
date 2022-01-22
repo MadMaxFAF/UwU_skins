@@ -25,3 +25,24 @@ UnitBlueprint {
 		
 	--add shield mesh uuugggggggggggghhhh
 }
+
+--tech 1
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uel0101',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0101_pink2k_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0101_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
