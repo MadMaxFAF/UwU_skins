@@ -69,3 +69,24 @@ UnitBlueprint {
 		},
 	},
 }
+
+-- aa
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uel0104',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0104_pink2k_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0104_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
