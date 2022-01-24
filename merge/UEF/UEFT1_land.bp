@@ -90,3 +90,46 @@ UnitBlueprint {
 		},
 	},
 }
+
+-- engi
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uel0105',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0105_pink2k_Albedo.dds',
+				NormalsName = '/mods/UwU_skins/textures/UEF/UEL0105_NT_NormalsTS.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0105_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+-- lab
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uel0106',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0106_pink2k_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0106_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
