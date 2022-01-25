@@ -1,0 +1,14 @@
+MeshBlueprint {
+    IconFadeInZoom = 130,
+    LODs = {
+        {
+            MeshName = 'ual0001_lod0.scm',
+            AlbedoName = '/mods/UwU_skins/textures/Aeon/UAL0001_blue4k_Albedo.dds',
+            NormalsName = 'ual0001_normals.dds',
+            SpecularName = 'ual0001_specteam.dds',
+            LookupName = '/effects/entities/PhaseShield/PhaseShieldLookup.dds',
+            ShaderName = 'PhaseShield',
+            LODCutoff = 195,
+        },
+    },
+}

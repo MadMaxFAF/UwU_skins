@@ -1,4 +1,4 @@
---ACU
+--  ACU
 
 UnitBlueprint {
 	Merge = true,
@@ -24,6 +24,57 @@ UnitBlueprint {
 	},
 		
 	--add shield mesh uuugggggggggggghhhh
+}
+
+--  drones
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uea0001',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEA0001_pink_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uea0003',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEA0001_pink_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'xea3204',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/XEA3204_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/XEA3204_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
 }
 
 --  tech 1  ----------------------------------------------------------------------------------------
