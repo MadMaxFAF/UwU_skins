@@ -22,7 +22,7 @@ UnitBlueprint {
 	},
 }
 
--- interceptor
+--  interceptor
 
 UnitBlueprint {
 	Merge = true,
@@ -43,7 +43,7 @@ UnitBlueprint {
 	},
 }
 
--- bomber
+--  bomber
 
 UnitBlueprint {
 	Merge = true,
@@ -58,6 +58,27 @@ UnitBlueprint {
 				{
 				LODCutoff = 400,
 				AlbedoName = '/mods/UwU_skins/textures/UEF/UEA0103_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+--  transport
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uea0107',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEA0107_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEA0107_pink_lod1_Albedo.dds',
 				},
 			},
 		},
