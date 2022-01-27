@@ -1,0 +1,44 @@
+
+--  tech 1 ---------------------------------------------------------------------------------
+
+--  frigate
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ues0103',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UES0103_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UES0103_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+-- submarine
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ues0203',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UES0203_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UES0203_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
