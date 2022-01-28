@@ -1,0 +1,23 @@
+
+--  tech 1 ---------------------------------------------------------------------------------
+
+--  land factory
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb0101',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0101_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0101_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
