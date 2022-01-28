@@ -21,3 +21,24 @@ UnitBlueprint {
 		},
 	},
 }
+
+--  air factory
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb0102',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0102_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0102_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
