@@ -1,0 +1,65 @@
+
+--  tech 1 ---------------------------------------------------------------------------------
+
+--  land factory
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb0101',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0101_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0101_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+--  air factory
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb0102',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0102_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0102_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+--  naval factory
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb0103',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0103_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0103_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}

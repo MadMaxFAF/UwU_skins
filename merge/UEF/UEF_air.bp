@@ -1,0 +1,86 @@
+
+--  tech 1 ---------------------------------------------------------------------------------
+
+--  scout
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uea0101',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEA0101_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEA0101_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+--  interceptor
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uea0102',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEA0102_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEA0102_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+--  bomber
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uea0103',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEA0103_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEA0103_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+--  transport
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uea0107',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEA0107_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEA0107_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}

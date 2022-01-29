@@ -1,0 +1,186 @@
+--  ACU
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uel0001',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0001_pink4k_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0001_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+	Enhancements = {
+		Shield = {
+			OwnerShieldMesh = '/mods/UwU_skins/shield/UEL0001_PhaseShield_mesh',
+		},
+	},
+		
+	--add shield mesh uuugggggggggggghhhh
+}
+
+--  drones
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uea0001',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEA0001_pink_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uea0003',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEA0001_pink_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'xea3204',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/XEA3204_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/XEA3204_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+--  tech 1  ----------------------------------------------------------------------------------------
+
+--  scout
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uel0101',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0101_pink2k_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0101_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+--  arty
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uel0103',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0103_pink2k_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0103_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+-- aa
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uel0104',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0104_pink2k_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0104_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+-- engi
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uel0105',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0105_pink2k_Albedo.dds',
+				NormalsName = '/mods/UwU_skins/textures/UEF/UEL0105_NT_NormalsTS.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0105_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+-- lab
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uel0106',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0106_pink2k_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0106_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
