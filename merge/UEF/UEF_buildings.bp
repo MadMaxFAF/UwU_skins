@@ -42,3 +42,24 @@ UnitBlueprint {
 		},
 	},
 }
+
+--  naval factory
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb0103',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0103_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0103_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
