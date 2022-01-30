@@ -63,3 +63,20 @@ UnitBlueprint {
 		},
 	},
 }
+
+--  p gen
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb1101',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB1101_pink_Albedo.dds',
+				},
+			},
+		},
+	},
+}
