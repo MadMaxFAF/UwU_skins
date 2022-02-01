@@ -80,3 +80,45 @@ UnitBlueprint {
 		},
 	},
 }
+
+--  hydro
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb1102',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB1102_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB1102_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+--  mex
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb1103',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB1103_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB1103_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
