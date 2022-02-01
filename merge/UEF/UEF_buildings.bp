@@ -122,3 +122,87 @@ UnitBlueprint {
 		},
 	},
 }
+
+--  e storage
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb1105',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB1105_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB1105_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+--  m storage
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb1106',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB1106_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB1106_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+-- PD
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb2101',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB2101_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB2101_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+-- AA
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb2104',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB2104_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB2104_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
