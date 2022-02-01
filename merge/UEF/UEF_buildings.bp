@@ -206,3 +206,108 @@ UnitBlueprint {
 		},
 	},
 }
+
+-- Torpedo launcher
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb2109',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB2109_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB2109_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+-- radar
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb3101',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB3101_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB3101_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+-- sonar
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb3102',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB3102_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB3102_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+-- wall
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb5101',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB5101_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB5101_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+-- air staging
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb5202',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB5202_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB5202_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
