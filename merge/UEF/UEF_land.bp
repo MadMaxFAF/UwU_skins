@@ -16,14 +16,15 @@ UnitBlueprint {
 				},
 			},
 		},
+		WarpInEffect = {
+        PhaseShieldMesh = '/mods/UwU_skins/shield/UEL0001_PhaseShield_mesh',
+        },
 	},
-	Enhancements = {
-		Shield = {
-			OwnerShieldMesh = '/mods/UwU_skins/shield/UEL0001_PhaseShield_mesh',
+		Enhancements = {
+			Shield = {
+				OwnerShieldMesh = '/mods/UwU_skins/shield/UEL0001_PhaseShield_mesh',
+				},
 		},
-	},
-		
-	--add shield mesh uuugggggggggggghhhh
 }
 
 --  drones
@@ -208,3 +209,23 @@ UnitBlueprint {
 
 --  tech 2  ----------------------------------------------------------------------------------------
 
+-- mongoose
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'del0204',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/DEL0204_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/DEL0204_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
