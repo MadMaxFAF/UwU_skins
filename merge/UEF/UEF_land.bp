@@ -229,3 +229,24 @@ UnitBlueprint {
 		},
 	},
 }
+
+-- pillar
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uel0202',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0202_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0202_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
