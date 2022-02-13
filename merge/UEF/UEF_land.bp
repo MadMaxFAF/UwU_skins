@@ -271,3 +271,24 @@ UnitBlueprint {
 		},
 	},
 }
+
+-- wagner
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'uel0203',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0203_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEL0203_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
