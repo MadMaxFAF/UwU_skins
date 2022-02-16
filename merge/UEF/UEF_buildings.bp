@@ -311,3 +311,131 @@ UnitBlueprint {
 		},
 	},
 }
+
+--  tech 1 ---------------------------------------------------------------------------------
+
+--  land factory hq
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb0201',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0201_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0101_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+--  land factory support
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'zeb9501',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0201_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0101_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+--  air factory hq
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb0202',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0202_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0102_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+--  air factory support
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'zeb9502',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0202_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0102_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+--  naval factory hq
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'ueb0203',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0203_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0103_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
+
+--  naval factory support
+
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = 'zeb9503',
+	Display = {
+		Mesh = {
+			LODs = {
+				{
+				LODCutoff = 100,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0203_pink_Albedo.dds',
+				},
+				{
+				LODCutoff = 400,
+				AlbedoName = '/mods/UwU_skins/textures/UEF/UEB0103_pink_lod1_Albedo.dds',
+				},
+			},
+		},
+	},
+}
